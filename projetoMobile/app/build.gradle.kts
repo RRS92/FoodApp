@@ -37,7 +37,6 @@ android {
 }
 
 dependencies {
-
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
@@ -49,6 +48,7 @@ dependencies {
     implementation(libs.retrofit)
     implementation(libs.converter.gson)
     implementation("com.github.bumptech.glide:glide:4.16.0")
-    kapt("com.github.bumptech.glide:compiler:4.16.0") // ✅ kapt válido com plugin correto
-
+    kapt("com.github.bumptech.glide:compiler:4.16.0")
 }
+
+
